@@ -1,0 +1,15 @@
+//WAP to check positive or negative num.
+import java.util.*;
+class ve{
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter any num");
+		int num=sc.nextInt();
+		if(num>0)
+			System.out.println("Num is postive: "+num);
+		else if(num<0)
+			System.out.println("Num is negative: "+num);
+		
+	}
+}

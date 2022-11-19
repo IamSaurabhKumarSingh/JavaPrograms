@@ -1,0 +1,34 @@
+// Take the four num from the user and find average.
+import.util.*;
+class average{
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the first num");
+		int num1=sc.nextInt();
+		System.out.println("Enter the second num");
+		int num2=sc.nextInt();
+		System.out.println("Enter the third num");
+		int num3=sc.nextInt();
+		System.out.println("Enter the fourth num");
+		int num4=sc.nextInt();
+		
+		int avg= (num1+num2+num3+num4)/4;
+		System.out.println("the average of fourth num is: "avg);
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
